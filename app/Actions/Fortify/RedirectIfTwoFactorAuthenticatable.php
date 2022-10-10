@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Actions\Fortify;
+=======
+namespace Laravel\Fortify\Actions;
+>>>>>>> 3032d69e82fae0e079d28f62954b46acbcb94cdd
 
 use Illuminate\Auth\Events\Failed;
 use Illuminate\Contracts\Auth\StatefulGuard;
