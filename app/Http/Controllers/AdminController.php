@@ -8,11 +8,7 @@ use Illuminate\Routing\Controller;
 use Illuminate\Routing\Pipeline;
 use Laravel\Fortify\Actions\EnsureLoginIsNotThrottled;
 use Laravel\Fortify\Actions\PrepareAuthenticatedSession;
-<<<<<<< HEAD
 
-=======
-use Laravel\Fortify\Contracts\LoginResponse;
->>>>>>> 3032d69e82fae0e079d28f62954b46acbcb94cdd
 use Laravel\Fortify\Contracts\LoginViewResponse;
 use Laravel\Fortify\Contracts\LogoutResponse;
 use Laravel\Fortify\Features;
@@ -43,7 +39,7 @@ class AdminController extends Controller
         $this->guard = $guard;
     }
 
-<<<<<<< HEAD
+
 
     public function loginForm()
     {
@@ -51,8 +47,7 @@ class AdminController extends Controller
     }
 
 
-=======
->>>>>>> 3032d69e82fae0e079d28f62954b46acbcb94cdd
+
     /**
      * Show the login view.
      *

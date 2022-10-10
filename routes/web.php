@@ -28,11 +28,9 @@ Route::middleware('admin:admin')->group(function(){
 
 Route::middleware(['auth:sanctum,admin', config('jetstream.auth_session'),'verified'])->group(function (){
     Route::get('/admin/dashboard', function () { 
-<<<<<<< HEAD
+
         return view('dashboard'); })->name('dashboard')->middleware('auth:admin');
-=======
-        return view('dashboard'); })->name('dashboard');
->>>>>>> 3032d69e82fae0e079d28f62954b46acbcb94cdd
+
 });
 
 
